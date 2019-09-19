@@ -240,7 +240,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Forritun1$move.coverage" NAME="move Coverage Results" MODIFIED="1568676601107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project 4" />
+    <SUITE FILE_PATH="coverage/Forritun1$move.coverage" NAME="move Coverage Results" MODIFIED="1568676829855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project 4" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi6.coverage" NAME="dæmi6 Coverage Results" MODIFIED="1568151986910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 6" />
   </component>
 </project>

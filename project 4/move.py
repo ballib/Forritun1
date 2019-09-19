@@ -1,11 +1,9 @@
 pos = int((input("Input a position between 1 and 10: ")))
-min = 1
-max = 10
 move1 = "r"
 
 def position(i):
     empty_string = ""
-    for x in range(min, max+1):
+    for x in range(1, 10+1):
         if x == i:
             empty_string = empty_string + ("o")
         else:
@@ -14,10 +12,10 @@ def position(i):
 
 def move(y):
     global pos
-    if y == ("r") and pos < max:
+    if y == ("r") and pos < 10:
         pos = pos + 1
 
-    if y == ("l") and pos > min:
+    if y == ("l") and pos > 1:
         pos = pos - 1
 
     position(pos)
