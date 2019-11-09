@@ -4,10 +4,12 @@ def open_file(filename):
 
 def longest(file_object):
     longest_word = ''
+    count = 0
     for word in file_object:
         strip = word.strip().replace(' ', '')
         if len(strip) > len(longest_word):
             longest_word = strip
+            count += 1
     return longest_word
 
 def main():

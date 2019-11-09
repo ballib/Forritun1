@@ -1,11 +1,13 @@
-import string
+def to_list(a_string):
+    if ',' in a_string:
+        return a_string.split(",")
+    elif ' ' in a_string:
+        return a_string.split()
+    else:
+        return [a_string]
 
-s = input("Input a sentence: ")
 
-l = []
-
-for i in s:
-    if i not in l and i != ' ':
-        l.append(i)
-
-print("Unique letters: ", l)
+# The main program starts here
+the_string = input("Enter the string: ")
+the_list = to_list(the_string)
+print(the_list)
