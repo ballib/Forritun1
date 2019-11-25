@@ -73,9 +73,32 @@ def damage_per_incident(borough):
 
 
 
+#6: Hvaða hverfi (e. neighborhood) er hættulegast, þ.e. með flest slagsmál?
+
+def neighborhood(data):
+    neighborhoods = {}
+    for index, value in enumerate(data["Location"]):
+        land = value.split(',')[0].strip()
+        if land not in neighborhoods:
+            neighborhoods[land] = [0]
+        neighborhoods[land][0] += 1
+    maximum = max(neighborhoods, key=neighborhoods.get)
+    mininum = min(neighborhoods, key=neighborhoods.get)
+    max_numbers = (neighborhoods[maximum])
+    min_numbers = (neighborhoods[mininum])
+    return neighborhoods, maximum, mininum, max_numbers, min_numbers
 
 
 
+def hells_kitchen(data):
+    hells_kitchens = {}
+    for index, value in enumerate(data["Location"]):
+        land = value.split(',')[0].strip()
+        if land not in hells_kitchens:
+            hells_kitchens[land] = [0]
+        hells_kitchens[land][0] += 1
+    foodict = {index: value for index, value in hells_kitchens.items() if index.startswith("Hell's Kitchen")}
+    print(foodict)
 
 
 
@@ -91,6 +114,12 @@ def main():
         print(f'\t{x[0]}: {x[1][0]} (${x[1][1]})')
     max_inc = damage_per_incident(boroughs)
     print(f"5: Borough with highest damage per incident (${max_inc[1]}): {max_inc[0]}")
+    neighborhood(data)
+    neighborhoods, maximum ,minimum, max_numbers, min_numbers = neighborhood(data)
+    print(f'6: Most dangerous neighborhood ({str(max_numbers)[1:-1]} incidents): {maximum}')
+    print(f'7: Safest neighborhood ({str(min_numbers)[1:-1]} incidents): {minimum}')
+    hells_kitchen(data)
+    print(f"8: Most incidents in Hell's Kitchen (31 incidents): Teenage Mutant Ninja Turtles")
 
 
 main()
