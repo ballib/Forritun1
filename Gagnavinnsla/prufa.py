@@ -90,15 +90,26 @@ def neighborhood(data):
 
 
 
-def hells_kitchen(data):
+def hells_kitchen():
+    heroes = open("incident_report.csv")
+
     hells_kitchens = {}
-    for index, value in enumerate(data["Location"]):
-        land = value.split(',')[0].strip()
-        if land not in hells_kitchens:
-            hells_kitchens[land] = [0]
-        hells_kitchens[land][0] += 1
-    foodict = {index: value for index, value in hells_kitchens.items() if index.startswith("Hell's Kitchen")}
-    print(foodict)
+
+    reader = csv.reader(heroes, delimiter=";")
+
+    for line in reader:
+        for word in line:
+            new_word = word.split(",")
+            for word in new_word:
+                if word == "Hell's Kitchen":
+                    if word not in hells_kitchens.keys():
+                        hells_kitchens[word] = 0
+                    hells_kitchens[word] += 1
+    print(hells_kitchens)
+
+
+
+
 
 
 
@@ -118,7 +129,7 @@ def main():
     neighborhoods, maximum ,minimum, max_numbers, min_numbers = neighborhood(data)
     print(f'6: Most dangerous neighborhood ({str(max_numbers)[1:-1]} incidents): {maximum}')
     print(f'7: Safest neighborhood ({str(min_numbers)[1:-1]} incidents): {minimum}')
-    hells_kitchen(data)
+    hells_kitchen()
     print(f"8: Most incidents in Hell's Kitchen (31 incidents): Teenage Mutant Ninja Turtles")
 
 
