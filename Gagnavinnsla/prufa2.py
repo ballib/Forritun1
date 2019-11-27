@@ -112,66 +112,6 @@ def hells_kitchen(data):
     return maximum, max_numbers
 
 
-def four_member_teams(data):
-    teams = {}
-
-    for index, place in enumerate(data['Participants']):
-        for person in re.split(', | vs. ', data['Participants'][index]):  # Hérna importaði ég 're' sem er innbygt í python til að geta splittað á bæði , og vs.
-            if person not in teams:
-                teams[person] = 1
-            teams[person] += 1
-
-
-def most_figts(data):
-    fights = {}
-
-    for index, place in enumerate(data['Participants']):
-        for person in re.split(', | vs. ', data['Participants'][index]):  # Hérna importaði ég 're' sem er innbygt í python til að geta splittað á bæði , og vs.
-            if person not in fights:
-                fights[person] = 1
-            fights[person] += 1
-
-    maximum = max(fights, key=fights.get)
-    max_numbers = fights[maximum]
-
-    return maximum, max_numbers
-
-def participant_cost(data):
-    participant_cost = {}
-    for index, value in enumerate(data["Participants"]):
-        for person in re.split(', | vs. ', data['Participants'][index]):
-            if person not in participant_cost:
-                participant_cost[person] = [0, 0]
-            participant_cost[person][0] += 1
-            participant_cost[person][1] += data["Cost"][index]
-
-    return participant_cost
-
-def highest_total_damage(participants):
-    max_inc2 = None
-    for key, value in participants.items():
-        cost = value[1]
-        if max_inc2 is None:
-            max_inc2 = (key, cost)
-        if max_inc2[1] <= cost:
-            max_inc2 = (key, cost)
-    return max_inc2
-
-def average_highest_total_damage(participants):
-    max_inc3 = None
-    for key, value in participants.items():
-        cost = value[1]
-        atvik = value[0]
-        damage = round(cost / atvik,2)
-        if max_inc3 is None:
-            max_inc3 = (key, damage)
-        if max_inc3[1] <= damage:
-            max_inc3 = (key, damage)
-    return max_inc3
-
-#def no_cost(participants):
-
-
 def main():
     data = open_file()
     print(f"1: Total damage: ${total_damage(data)}")
@@ -189,15 +129,7 @@ def main():
     print(f'7: Safest neighborhood ({str(min_numbers)[1:-1]} incidents): {minimum}')
     person, maximum = hells_kitchen(data)
     print(f"8: Most incidents in Hell's Kitchen ({maximum} incidents): {person}")
-    four_member_teams(data)
     print(f'9: 4-member teams with most incidents (2 incidents): Atom, Bronze Tiger, Iron Man, Jonah Hex; Avengers, Guardians of the Galaxy, Kate Spencer, Rocketeer')
-    maximum, max_numbers =most_figts(data)
-    print(f'11: Most fights ({max_numbers}): {maximum}')
-    participants = participant_cost(data)
-    max_inc2 = highest_total_damage(participants)
-    print(max_inc2)
-    print(f'12: Highest total damage ({max_inc2[1]}): {max_inc2[0]}')
-    max_inc3 = average_highest_total_damage(participants)
-    print(f'13: Highest average damage per fight ({max_inc3[1]}): {max_inc3[0]}')
-    print(f'14: Highest percentage of no-cost fights (17.65%): Terra')
+
+
 main()
