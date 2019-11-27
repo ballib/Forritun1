@@ -169,7 +169,19 @@ def average_highest_total_damage(participants):
             max_inc3 = (key, damage)
     return max_inc3
 
-#def no_cost(participants):
+def no_cost(participants):
+    min_inc = None
+    counter = 0
+    for key, value in participants.items():
+        cost = value[1]
+        atvik = value[0]
+        if cost == "0":
+            counter += 1
+            if min_inc is None:
+                min_inc = (key, cost)
+    print(min_inc)
+
+
 
 
 def main():
@@ -199,5 +211,6 @@ def main():
     print(f'12: Highest total damage ({max_inc2[1]}): {max_inc2[0]}')
     max_inc3 = average_highest_total_damage(participants)
     print(f'13: Highest average damage per fight ({max_inc3[1]}): {max_inc3[0]}')
+    no_cost(participants)
     print(f'14: Highest percentage of no-cost fights (17.65%): Terra')
 main()
