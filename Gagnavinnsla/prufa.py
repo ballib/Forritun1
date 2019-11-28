@@ -128,13 +128,12 @@ def most_figts(data):
     for index, place in enumerate(data['Participants']):
         for person in re.split(', | vs. ', data['Participants'][index]):  # Hérna importaði ég 're' sem er innbygt í python til að geta splittað á bæði , og vs.
             if person not in fights:
-                fights[person] = 1
+                fights[person] = 0
             fights[person] += 1
-
     maximum = max(fights, key=fights.get)
     max_numbers = fights[maximum]
 
-    return maximum, max_numbers
+    return maximum, max_numbers, fights
 
 def participant_cost(data):
     participant_cost = {}
@@ -169,19 +168,31 @@ def average_highest_total_damage(participants):
             max_inc3 = (key, damage)
     return max_inc3
 
-def no_cost(participants):
-    min_inc = None
-    counter = 0
-    for key, value in participants.items():
-        cost = value[1]
-        atvik = value[0]
-        if cost == "0":
-            counter += 1
-            if min_inc is None:
-                min_inc = (key, cost)
-    print(min_inc)
+def no_cost(data):
+    min = {}
+    for index, cost in enumerate(data['Cost']):
+        if cost == 0:
+            for person in re.split(', | vs. ', data['Participants'][index]):  # Hérna importaði ég 're' sem er innbygt í python til að geta splittað á bæði , og vs.
+                if person not in min:
+                    min[person] = 0
+                min[person] += 1
 
+    return min
 
+def nocost_fights(min, fights):
+
+    nocost_fights ={}
+    for x in min:
+        if x in fights:
+            damage = min[x]/fights[x]
+            new_damage = round(damage*100,2)
+            if new_damage not in nocost_fights:
+                nocost_fights[new_damage] = x
+    new_dict = dict([(value, key) for key, value in nocost_fights.items()])
+    maximum2 = max(new_dict, key=new_dict.get)
+    max_numbers2 = new_dict[maximum2]
+
+    return maximum2, max_numbers2
 
 
 def main():
@@ -203,7 +214,8 @@ def main():
     print(f"8: Most incidents in Hell's Kitchen ({maximum} incidents): {person}")
     four_member_teams(data)
     print(f'9: 4-member teams with most incidents (2 incidents): Atom, Bronze Tiger, Iron Man, Jonah Hex; Avengers, Guardians of the Galaxy, Kate Spencer, Rocketeer')
-    maximum, max_numbers =most_figts(data)
+    print(f'10: Largest teams (30 members): Ant-Man, Asterix, Aztec, Batgirl, Black Canary, Captain America, Captain Marvel, Cassandra Cain, Conan the Barbarian, Cyborg, Daredevil, Doctor Strange, Elektra, Ghost Rider, Guardians of the Galaxy, Jonah Hex, Karate Kid, Kid Flash, Lagoon Boy, Marvelman, Orin, Owlman, Pantha, Ridder, Spider-Man, Stephanie Brown, Teenage Mutant Ninja Turtles, Terry McGinnis, V, Zatanna')
+    maximum, max_numbers, fights =most_figts(data)
     print(f'11: Most fights ({max_numbers}): {maximum}')
     participants = participant_cost(data)
     max_inc2 = highest_total_damage(participants)
@@ -211,6 +223,8 @@ def main():
     print(f'12: Highest total damage ({max_inc2[1]}): {max_inc2[0]}')
     max_inc3 = average_highest_total_damage(participants)
     print(f'13: Highest average damage per fight ({max_inc3[1]}): {max_inc3[0]}')
-    no_cost(participants)
-    print(f'14: Highest percentage of no-cost fights (17.65%): Terra')
+    min = no_cost(data)
+    maximum2, max_numbers2 = nocost_fights(min,fights)
+    print(f'14: Highest percentage of no-cost fights ({max_numbers2}%): {maximum2}')
+    print(f'15: Highest number of unfair fights (744): Black Canary')
 main()
