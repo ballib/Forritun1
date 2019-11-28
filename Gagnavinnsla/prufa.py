@@ -115,12 +115,25 @@ def hells_kitchen(data):
 def four_member_teams(data):
     teams = {}
 
-    for index, place in enumerate(data['Participants']):
-        for person in re.split(', | vs. ', data['Participants'][index]):  # Hérna importaði ég 're' sem er innbygt í python til að geta splittað á bæði , og vs.
-            if person not in teams:
-                teams[person] = 1
-            teams[person] += 1
+    for persons in data['Participants']:
+        for team in persons.split(' vs. '):
+            if len(team.split(',')) == 4:
+                if team not in teams:
+                    teams[team] = 0
+                teams[team] += 1
 
+    maximum = max(teams, key=teams.get)
+    max_value = teams[maximum]
+    the_teams = [max_value, []]
+
+    for key, value in teams.items():
+        if value == max_value:
+            the_teams[1].append(key)
+    the_teams = [the_teams[0], '; '.join(sorted(the_teams[1]))]
+    return the_teams
+
+def most_teams(data):
+    biggest_team = {}
 
 def most_figts(data):
     fights = {}
@@ -187,10 +200,9 @@ def nocost_fights(min, fights):
             damage = min[x]/fights[x]
             new_damage = round(damage*100,2)
             if new_damage not in nocost_fights:
-                nocost_fights[new_damage] = x
-    new_dict = dict([(value, key) for key, value in nocost_fights.items()])
-    maximum2 = max(new_dict, key=new_dict.get)
-    max_numbers2 = new_dict[maximum2]
+                nocost_fights[x] = new_damage
+    maximum2 = max(nocost_fights, key=nocost_fights.get)
+    max_numbers2 = nocost_fights[maximum2]
 
     return maximum2, max_numbers2
 
@@ -212,8 +224,8 @@ def main():
     print(f'7: Safest neighborhood ({str(min_numbers)[1:-1]} incidents): {minimum}')
     person, maximum = hells_kitchen(data)
     print(f"8: Most incidents in Hell's Kitchen ({maximum} incidents): {person}")
-    four_member_teams(data)
-    print(f'9: 4-member teams with most incidents (2 incidents): Atom, Bronze Tiger, Iron Man, Jonah Hex; Avengers, Guardians of the Galaxy, Kate Spencer, Rocketeer')
+    teams = four_member_teams(data)
+    print(f'9: 4-member teams with most incidents ({teams[0]} incidents): {teams[1]}')
     print(f'10: Largest teams (30 members): Ant-Man, Asterix, Aztec, Batgirl, Black Canary, Captain America, Captain Marvel, Cassandra Cain, Conan the Barbarian, Cyborg, Daredevil, Doctor Strange, Elektra, Ghost Rider, Guardians of the Galaxy, Jonah Hex, Karate Kid, Kid Flash, Lagoon Boy, Marvelman, Orin, Owlman, Pantha, Ridder, Spider-Man, Stephanie Brown, Teenage Mutant Ninja Turtles, Terry McGinnis, V, Zatanna')
     maximum, max_numbers, fights =most_figts(data)
     print(f'11: Most fights ({max_numbers}): {maximum}')
