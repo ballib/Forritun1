@@ -16,7 +16,7 @@ def open_file():
         data['Location'].append(value[0])
         data['Participants'].append(value[1])
         data['Cost'].append(int(value[2].replace('$', '')))
-
+    heroes.close()
     return data
 
 
@@ -215,20 +215,25 @@ def nocost_fights(min, fights):
     return maximum2, max_numbers2
 
 def unfair_fights(data):
+    """
+    15: Hvaða ofurhetja er með flesta ósanngjarna bardaga, þ.e. hvaða ofurhetja er oftast í slagmálum í liði sem er rúmlega tvöfalt stærra en lið andstæðinganna?
+
+    15: Highest number of unfair fights (744): Black Canary
+    :param data:
+    :return:
+    """
     unfair = {}
     for x in data['Participants']:
         for team1 in x.split(' vs. '):
             for person1 in team1.split(', '):
                 for team2 in x.split(' vs. '):
-                    if len(team1) >= len(team2) * 2:
+                    if len(team1) > len(team2)*2:
                         if person1 not in unfair:
                             unfair[person1] = 0
                         unfair[person1] += 1
-                    elif len(team2) *2 <= len(team1):
-                        if person1 not in unfair:
-                            unfair[person1] = 0
-                        unfair[person1] += 1
-def friends_enemies(data):
+    print(unfair)
+
+"""def friends_enemies(data):
     frenemies = {}
     for x in data['Participants']:
         for team1 in x.split(' vs. '):
@@ -237,9 +242,9 @@ def friends_enemies(data):
                     if person1 not in team2:
                         if person1 not in frenemies:
                         frenemies[person1] = 0
-                    frenemies[person1] += 1
+                    frenemies[person1] += 1"""
 
-    print(frenemies)
+    #print(frenemies)
 def main():
     data = open_file()
     print(f"1: Total damage: ${total_damage(data)}")
@@ -272,7 +277,7 @@ def main():
     maximum2, max_numbers2 = nocost_fights(min,fights)
     print(f'14: Highest percentage of no-cost fights ({max_numbers2}%): {maximum2}')
     unfair_fights(data)
-    print(f'15: Highest number of unfair fights (744): Black Canary')
-    friends_enemies(data)
-    print(f'17: Highest number of friends that are also enemies (144): Black Panther')
+    #print(f'15: Highest number of unfair fights (744): Black Canary')
+    #friends_enemies(data)
+    #print(f'17: Highest number of friends that are also enemies (144): Black Panther')
 main()
