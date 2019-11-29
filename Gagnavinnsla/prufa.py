@@ -134,6 +134,14 @@ def four_member_teams(data):
 
 def most_teams(data):
     biggest_team = {}
+    for persons in data['Participants']:
+        for team in persons.split(' vs. '):
+            if team not in biggest_team:
+                biggest_team[team] = 0
+            biggest_team[team] = len(team.split(","))
+    biggest_team_max = max(biggest_team, key=biggest_team.get)
+    biggest_numbers_max = biggest_team[biggest_team_max]
+    return biggest_team_max, biggest_numbers_max
 
 def most_figts(data):
     fights = {}
@@ -206,7 +214,32 @@ def nocost_fights(min, fights):
 
     return maximum2, max_numbers2
 
+def unfair_fights(data):
+    unfair = {}
+    for x in data['Participants']:
+        for team1 in x.split(' vs. '):
+            for person1 in team1.split(', '):
+                for team2 in x.split(' vs. '):
+                    if len(team1) >= len(team2) * 2:
+                        if person1 not in unfair:
+                            unfair[person1] = 0
+                        unfair[person1] += 1
+                    elif len(team2) *2 <= len(team1):
+                        if person1 not in unfair:
+                            unfair[person1] = 0
+                        unfair[person1] += 1
+def friends_enemies(data):
+    frenemies = {}
+    for x in data['Participants']:
+        for team1 in x.split(' vs. '):
+            for person1 in team1.split(', '):
+                for team2 in x.split(' vs. '):
+                    if person1 not in team2:
+                        if person1 not in frenemies:
+                        frenemies[person1] = 0
+                    frenemies[person1] += 1
 
+    print(frenemies)
 def main():
     data = open_file()
     print(f"1: Total damage: ${total_damage(data)}")
@@ -226,17 +259,20 @@ def main():
     print(f"8: Most incidents in Hell's Kitchen ({maximum} incidents): {person}")
     teams = four_member_teams(data)
     print(f'9: 4-member teams with most incidents ({teams[0]} incidents): {teams[1]}')
-    print(f'10: Largest teams (30 members): Ant-Man, Asterix, Aztec, Batgirl, Black Canary, Captain America, Captain Marvel, Cassandra Cain, Conan the Barbarian, Cyborg, Daredevil, Doctor Strange, Elektra, Ghost Rider, Guardians of the Galaxy, Jonah Hex, Karate Kid, Kid Flash, Lagoon Boy, Marvelman, Orin, Owlman, Pantha, Ridder, Spider-Man, Stephanie Brown, Teenage Mutant Ninja Turtles, Terry McGinnis, V, Zatanna')
-    maximum, max_numbers, fights =most_figts(data)
+    biggest_team_max, biggest_numbers_max = most_teams(data)
+    print(f'10: Largest teams ({biggest_numbers_max} members): {biggest_team_max}')
+    maximum, max_numbers, fights = most_figts(data)
     print(f'11: Most fights ({max_numbers}): {maximum}')
     participants = participant_cost(data)
     max_inc2 = highest_total_damage(participants)
-    print(max_inc2)
-    print(f'12: Highest total damage ({max_inc2[1]}): {max_inc2[0]}')
+    print(f'12: Highest total damage (${max_inc2[1]}): {max_inc2[0]}')
     max_inc3 = average_highest_total_damage(participants)
-    print(f'13: Highest average damage per fight ({max_inc3[1]}): {max_inc3[0]}')
+    print(f'13: Highest average damage per fight (${max_inc3[1]}): {max_inc3[0]}')
     min = no_cost(data)
     maximum2, max_numbers2 = nocost_fights(min,fights)
     print(f'14: Highest percentage of no-cost fights ({max_numbers2}%): {maximum2}')
+    unfair_fights(data)
     print(f'15: Highest number of unfair fights (744): Black Canary')
+    friends_enemies(data)
+    print(f'17: Highest number of friends that are also enemies (144): Black Panther')
 main()
