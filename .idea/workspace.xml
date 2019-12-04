@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a7a70c6-2b2b-4ce9-93aa-12a21be4413e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Gagnavinnsla/Superhero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Forritun1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Forritun1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Forritun1.iml___jb_old___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Forritun1.iml___jb_tmp___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gagnavinnsla/prufa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gagnavinnsla/prufa.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gagnavinnsla/incident_report.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="98" lean-forward="true" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="98" />
+            <state relative-caret-position="135">
+              <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -64,17 +68,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Superheroes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Superhero.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="27" column="77" lean-forward="true" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gagnavinnsla/prufa.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3378">
-              <caret line="229" selection-start-line="229" selection-end-line="229" />
+            <state relative-caret-position="15">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -161,6 +174,10 @@
       </list>
     </option>
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="834" />
+  </component>
   <component name="ProjectId" id="1QfBlnqjrbwAII7c9m1ZvxknzgR" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -170,13 +187,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Forritun1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Forritun1" type="462c0819:PsiDirectoryNode" />
+              <item name="Gagnavinnsla" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
@@ -214,6 +235,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,22 +427,25 @@
       <workItem from="1574707961652" duration="8456000" />
       <workItem from="1574794923958" duration="9435000" />
       <workItem from="1574890711965" duration="6868000" />
+      <workItem from="1575405072491" duration="80000" />
+      <workItem from="1575482877484" duration="268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3047000" />
+    <option name="totallyTimeSpent" value="3517000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="834" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.039341915" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14091559" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2435724" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3048193" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3048193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -439,6 +464,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -581,27 +609,76 @@
     <SUITE FILE_PATH="coverage/Forritun1$dæmi6.coverage" NAME="dæmi6 Coverage Results" MODIFIED="1568151986910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/incident_report.csv">
+    <entry file="file://$PROJECT_DIR$/upprifjun fyrir próf/midterm 3/dæmi1 (dictionaries_ get_user_input and print).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="98" lean-forward="true" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="98" />
+        <state relative-caret-position="375">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Superheroes.py">
+    <entry file="file://$PROJECT_DIR$/assignment 9 (files and exceptions)/dæmi 1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upprifjun fyrir próf/stöðupróf/dæmi1 average sales.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upprifjun fyrir próf/stöðupróf/dæmi2 hangman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upprifjun fyrir próf/stöðupróf/dæmi3 klasar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upprifjun fyrir próf/Final Exam 2018/dæmi1 (dictionary-aron).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gagnavinnsla/prufa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3378">
-          <caret line="229" selection-start-line="229" selection-end-line="229" />
+        <state relative-caret-position="15">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/incident_report.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Superheroes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Superhero.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="27" column="77" lean-forward="true" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
         </state>
       </provider>
     </entry>
