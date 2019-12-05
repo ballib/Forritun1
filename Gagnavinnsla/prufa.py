@@ -101,7 +101,7 @@ def hells_kitchen(data):
     for index, place in enumerate(data['Location']):
         new_place = place.split(',')[0].strip()
         if new_place == "Hell's Kitchen":
-            for person in re.split(', | vs. ', data['Participants'][index]): # Hérna importaði ég 're' sem er innbygt í python til að geta splittað á bæði , og vs.
+            for person in re.split(', | vs. ', data['Participants'][index]):
                 if person not in most:
                     most[person] = 0
                 most[person] += 1
@@ -147,7 +147,7 @@ def most_figts(data):
     fights = {}
 
     for index, place in enumerate(data['Participants']):
-        for person in re.split(', | vs. ', data['Participants'][index]):  # Hérna importaði ég 're' sem er innbygt í python til að geta splittað á bæði , og vs.
+        for person in re.split(', | vs. ', data['Participants'][index]):
             if person not in fights:
                 fights[person] = 0
             fights[person] += 1
@@ -193,7 +193,7 @@ def no_cost(data):
     min = {}
     for index, cost in enumerate(data['Cost']):
         if cost == 0:
-            for person in re.split(', | vs. ', data['Participants'][index]):  # Hérna importaði ég 're' sem er innbygt í python til að geta splittað á bæði , og vs.
+            for person in re.split(', | vs. ', data['Participants'][index]):
                 if person not in min:
                     min[person] = 0
                 min[person] += 1
@@ -215,36 +215,66 @@ def nocost_fights(min, fights):
     return maximum2, max_numbers2
 
 def unfair_fights(data):
-    """
-    15: Hvaða ofurhetja er með flesta ósanngjarna bardaga, þ.e. hvaða ofurhetja er oftast í slagmálum í liði sem er rúmlega tvöfalt stærra en lið andstæðinganna?
 
-    15: Highest number of unfair fights (744): Black Canary
-    :param data:
-    :return:
-    """
+    my_list = []
     unfair = {}
     for x in data['Participants']:
-        for team1 in x.split(' vs. '):
-            for person1 in team1.split(', '):
-                for team2 in x.split(' vs. '):
-                    if len(team1) > len(team2)*2:
-                        if person1 not in unfair:
-                            unfair[person1] = 0
-                        unfair[person1] += 1
-    print(unfair)
+        for teams in x.split(' vs. '):
+            persons = teams.split(', ')
+            my_list.append(persons)
+    for x in range(0, len(my_list), 2):
+        stak1 = my_list[x]
+        stak2 = my_list[x+1]
+        if len(stak1) > 2 * len(stak2):
+            for person in stak1:
+                person = person.strip()
+                if person in unfair:
+                    unfair[person] += 1
 
-"""def friends_enemies(data):
-    frenemies = {}
-    for x in data['Participants']:
-        for team1 in x.split(' vs. '):
-            for person1 in team1.split(', '):
-                for team2 in x.split(' vs. '):
-                    if person1 not in team2:
-                        if person1 not in frenemies:
-                        frenemies[person1] = 0
-                    frenemies[person1] += 1"""
+                else:
+                    unfair[person] = 1
+        elif 2*len(stak1) < len(stak2):
+            for person in stak2:
+                person = person.strip()
+                if person in unfair:
+                    unfair[person] += 1
+                else:
+                    unfair[person] = 1
+    maximum5 = max(unfair, key=unfair.get)
+    max_numbers5 = unfair[maximum5]
+    return maximum5, max_numbers5, unfair, my_list
 
-    #print(frenemies)
+
+def percentage_unfair(unfair, fights):
+    percentage_unfair = dict((k, float(unfair[k])/fights[k]) for k in unfair)
+    new_dict = {}
+    for key, value in percentage_unfair.items():
+        new_dict[key] = round(value*100, 2)
+
+    maximum6 = max(new_dict, key=new_dict.get)
+    max_numbers6 = new_dict[maximum6]
+    return maximum6, max_numbers6
+
+
+
+
+
+
+"""def friends_enemies(my_list):                    Náði ekki alveg að klára, þetta function finnur út hversu oft iron man og avengers berjast, semsagt 71x, Þurfti bara að gera þetta fyrir hina
+    new_dict = {}
+    for x in range(0, len(my_list), 2):
+        stak1 = my_list[x]
+        stak2 = my_list[x+1]
+        for person in stak1:
+            if person == "Avengers" or person == "Iron Man":
+                for person2 in stak2:
+                    if person2 == "Iron Man" or person2 == "Avengers":
+                        if person not in new_dict:      
+                            new_dict[person] = 0
+                        new_dict[person] += 1
+
+    print(new_dict)
+    """
 def main():
     data = open_file()
     print(f"1: Total damage: ${total_damage(data)}")
@@ -276,8 +306,10 @@ def main():
     min = no_cost(data)
     maximum2, max_numbers2 = nocost_fights(min,fights)
     print(f'14: Highest percentage of no-cost fights ({max_numbers2}%): {maximum2}')
-    unfair_fights(data)
-    #print(f'15: Highest number of unfair fights (744): Black Canary')
-    #friends_enemies(data)
+    maximum5, max_numbers5, unfair, my_list = unfair_fights(data)
+    print(f'15: Highest number of unfair fights ({max_numbers5}): {maximum5}')
+    maximum6, max_numbers6 = percentage_unfair(unfair,fights)
+    print(f'16: Highest percentage of unfair fights ({max_numbers6}%): {maximum6}')
+    #friends_enemies(my_list)
     #print(f'17: Highest number of friends that are also enemies (144): Black Panther')
 main()
