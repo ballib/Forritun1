@@ -2,7 +2,7 @@ import csv
 import re
 
 def open_file():
-    heroes = open("incident_report.csv")
+    heroes = open("incident_report_grading.csv")
 
     data = {}
 
@@ -84,9 +84,17 @@ def neighborhood(data):
         neighborhoods[land][0] += 1
     maximum = max(neighborhoods, key=neighborhoods.get)
     mininum = min(neighborhoods, key=neighborhoods.get)
-    max_numbers = (neighborhoods[maximum])
-    min_numbers = (neighborhoods[mininum])
-    return neighborhoods, maximum, mininum, max_numbers, min_numbers
+    max_numbers = neighborhoods[maximum]
+    min_numbers = neighborhoods[mininum]
+    minim = []
+    maxim = []
+    for key, value in neighborhoods.items():
+        if value == min_numbers:
+            minim.append(key)
+        elif value == max_numbers:
+            maxim.append(key)
+
+    return neighborhoods, maxim, minim, max_numbers, min_numbers
 
 
 
@@ -107,9 +115,18 @@ def hells_kitchen(data):
                 most[person] += 1
 
     maximum = max(most, key=most.get)
+    minimum = min(most, key=most.get)
     max_numbers = most[maximum]
+    min_numbers = most[minimum]
+    minim2 = []
+    maxim2 = []
+    for key, value in most.items():
+        if value == min_numbers:
+            minim.append(key)
+        elif value == max_numbers:
+            maxim.append(key)
 
-    return maximum, max_numbers
+    return maximum, max_numbers, maxim2, minim2
 
 
 def four_member_teams(data):
@@ -288,10 +305,10 @@ def main():
     max_inc = damage_per_incident(boroughs)
     print(f"5: Borough with highest damage per incident (${max_inc[1]}): {max_inc[0]}")
     neighborhoods, maximum ,minimum, max_numbers, min_numbers = neighborhood(data)
-    print(f'6: Most dangerous neighborhood ({str(max_numbers)[1:-1]} incidents): {maximum}')
-    print(f'7: Safest neighborhood ({str(min_numbers)[1:-1]} incidents): {minimum}')
-    person, maximum = hells_kitchen(data)
-    print(f"8: Most incidents in Hell's Kitchen ({maximum} incidents): {person}")
+    print(f'6: Most dangerous neighborhood ({str(max_numbers)[1:-1]} incidents): {", ".join(maximum)}')
+    print(f'7: Safest neighborhood ({str(min_numbers)[1:-1]} incidents): {", ".join(minimum)}') #laga minimum þarf að geta birt fleiri en 1 personu
+    person, maximum, maxim2, minim2 = hells_kitchen(data)
+    print(f'8: Most incidents in Hell's Kitchen ({maximum} incidents): {.join(minim2)}) #laga person þarf að geta birt fleiri en 1 personu
     teams = four_member_teams(data)
     print(f'9: 4-member teams with most incidents ({teams[0]} incidents): {teams[1]}')
     biggest_team_max, biggest_numbers_max = most_teams(data)
@@ -305,11 +322,13 @@ def main():
     print(f'13: Highest average damage per fight (${max_inc3[1]}): {max_inc3[0]}')
     min = no_cost(data)
     maximum2, max_numbers2 = nocost_fights(min,fights)
-    print(f'14: Highest percentage of no-cost fights ({max_numbers2}%): {maximum2}')
+    print(f'14: Highest percentage of no-cost fights ({max_numbers2:.2f}%): {maximum2}')
     maximum5, max_numbers5, unfair, my_list = unfair_fights(data)
     print(f'15: Highest number of unfair fights ({max_numbers5}): {maximum5}')
     maximum6, max_numbers6 = percentage_unfair(unfair,fights)
-    print(f'16: Highest percentage of unfair fights ({max_numbers6}%): {maximum6}')
+    print(f'16: Highest percentage of unfair fights ({max_numbers6:.2f}%): {maximum6}')  #laga maximum þarf að geta birt fleiri en 1 persónu
     #friends_enemies(my_list)
     #print(f'17: Highest number of friends that are also enemies (144): Black Panther')
 main()
+
+
