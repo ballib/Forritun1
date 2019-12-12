@@ -7,7 +7,6 @@
       <change afterPath="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/sækja uppl um forsjá barna.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,107 +55,6 @@
     <SUITE FILE_PATH="coverage/Forritun1$dæmi4__1_.coverage" NAME="dæmi4 (1) Coverage Results" MODIFIED="1573569880317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 7" />
     <SUITE FILE_PATH="coverage/Forritun1$createinsert.coverage" NAME="createinsert Coverage Results" MODIFIED="1575571712992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla" />
   </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43035862">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gagnavinnsla/incident_report.csv">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/sækja uppl um forsjá barna.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/sækja upls um menntun.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="44" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/rearange.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" lean-forward="true" selection-end-line="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/menntun.csv">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/insertstatement_menntun.sql">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gagnavinnsla/prufa2.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#0#10#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/insertstatement_forsjabarna.sql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/Forsjabarna.csv">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/menntun.csv">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" selection-start-line="16" selection-end-line="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -174,98 +72,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Gagnavinnsla/Superheroes grading.py" />
-        <option value="$PROJECT_DIR$/Gagnavinnsla/prufa.py" />
-        <option value="$PROJECT_DIR$/Gagnavinnsla/stöðupróf.py" />
-        <option value="$PROJECT_DIR$/Gagnavinnsla/createinsert.py" />
-        <option value="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/Forsjabarna.csv" />
-        <option value="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/sækja uppl um forsjá barna.py" />
-        <option value="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/insertstatement_menntun.sql" />
-        <option value="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/sækja upls um menntun.py" />
-        <option value="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/menntun.csv" />
-        <option value="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/rearange.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="834" />
-  </component>
   <component name="ProjectId" id="1QfBlnqjrbwAII7c9m1ZvxknzgR" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Forritun1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Forritun1" type="462c0819:PsiDirectoryNode" />
-              <item name="Gagnavinnsla" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Forritun1" type="462c0819:PsiDirectoryNode" />
-              <item name="Gagnavinnsla" type="462c0819:PsiDirectoryNode" />
-              <item name="Hópaverkefni" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Forritun1" type="462c0819:PsiDirectoryNode" />
-              <item name="Lokapróf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Forritun1" type="462c0819:PsiDirectoryNode" />
-              <item name="upprifjun fyrir próf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Forritun1" type="462c0819:PsiDirectoryNode" />
-              <item name="upprifjun fyrir próf" type="462c0819:PsiDirectoryNode" />
-              <item name="Final Exam 2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Forritun1" type="462c0819:PsiDirectoryNode" />
-              <item name="upprifjun fyrir próf" type="462c0819:PsiDirectoryNode" />
-              <item name="project 4 move o" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Forritun1" type="462c0819:PsiDirectoryNode" />
-              <item name="upprifjun fyrir próf" type="462c0819:PsiDirectoryNode" />
-              <item name="stöðupróf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -288,19 +102,7 @@
       <recent name="$PROJECT_DIR$/assignment 3" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.rearange">
+  <component name="RunManager" selected="Python.sækja upls um menntun">
     <configuration name="Lotto" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Forritun1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -323,6 +125,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="prufa2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Forritun1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Gagnavinnsla" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gagnavinnsla/prufa2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="rearange" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Forritun1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -337,28 +161,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/rearange.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="stöðupróf" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Forritun1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Gagnavinnsla" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gagnavinnsla/createinsert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -413,13 +215,25 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rearange" />
         <item itemvalue="Python.sækja upls um menntun" />
+        <item itemvalue="Python.prufa2" />
+        <item itemvalue="Python.rearange" />
         <item itemvalue="Python.sækja uppl um forsjá barna" />
         <item itemvalue="Python.Lotto" />
-        <item itemvalue="Python.stöðupróf" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -463,38 +277,11 @@
       <workItem from="1575405072491" duration="80000" />
       <workItem from="1575482877484" duration="268000" />
       <workItem from="1575558505182" duration="24646000" />
+      <workItem from="1576156020928" duration="1517000" />
+      <workItem from="1576157681475" duration="121000" />
+      <workItem from="1576157950963" duration="939000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28163000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="39" y="23" width="1440" height="834" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1423462" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2425876" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3045822" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32650602" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32884097" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -508,12 +295,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -534,6 +315,32 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576158785816">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576158785816" />
+    <state width="1340" height="145" key="GridCell.Tab.0.bottom" timestamp="1576158880256">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576158880256" />
+    <state width="1340" height="145" key="GridCell.Tab.0.center" timestamp="1576158880256">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="145" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576158880256" />
+    <state width="1340" height="145" key="GridCell.Tab.0.left" timestamp="1576158880256">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="145" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576158880256" />
+    <state width="1340" height="145" key="GridCell.Tab.0.right" timestamp="1576158880256">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="145" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576158880256" />
+    <state x="656" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1576157951979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576157951979" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -584,198 +391,19 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Forritun1$prufa.coverage" NAME="prufa Coverage Results" MODIFIED="1574986094229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla" />
-    <SUITE FILE_PATH="coverage/Forritun1$dæmi3.coverage" NAME="dæmi3 Coverage Results" MODIFIED="1569887252115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 10" />
-    <SUITE FILE_PATH="coverage/Forritun1$dæmi2__1_.coverage" NAME="dæmi2 (1) Coverage Results" MODIFIED="1569790401028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 7" />
-    <SUITE FILE_PATH="coverage/Forritun1$dæmi3__1_.coverage" NAME="dæmi3 (1) Coverage Results" MODIFIED="1569801205496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 9" />
-    <SUITE FILE_PATH="coverage/Forritun1$dæmi5.coverage" NAME="dæmi5 Coverage Results" MODIFIED="1569802189909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 9" />
-    <SUITE FILE_PATH="coverage/Forritun1$dæmi_1.coverage" NAME="dæmi 1 Coverage Results" MODIFIED="1569793151564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 9" />
-    <SUITE FILE_PATH="coverage/Forritun1$dæmi_4.coverage" NAME="dæmi 4 Coverage Results" MODIFIED="1569802054015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 9" />
-    <SUITE FILE_PATH="coverage/Forritun1$move.coverage" NAME="move Coverage Results" MODIFIED="1568676829855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project 4" />
-    <SUITE FILE_PATH="coverage/Forritun1$prufa2.coverage" NAME="prufa2 Coverage Results" MODIFIED="1574804758883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla" />
-    <SUITE FILE_PATH="coverage/Forritun1$dæmi2.coverage" NAME="dæmi2 Coverage Results" MODIFIED="1569883316356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 10" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi4.coverage" NAME="dæmi4 Coverage Results" MODIFIED="1569791840157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 7" />
+    <SUITE FILE_PATH="coverage/Forritun1$prufa.coverage" NAME="prufa Coverage Results" MODIFIED="1574986094229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla" />
+    <SUITE FILE_PATH="coverage/Forritun1$dæmi5.coverage" NAME="dæmi5 Coverage Results" MODIFIED="1569802189909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 9" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi6.coverage" NAME="dæmi6 Coverage Results" MODIFIED="1568151986910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 6" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/upprifjun fyrir próf/stöðupróf/dæmi1 average sales.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upprifjun fyrir próf/stöðupróf/dæmi2 hangman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upprifjun fyrir próf/stöðupróf/dæmi3 klasar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upprifjun fyrir próf/Final Exam 2018/dæmi1 (dictionary-aron).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upprifjun fyrir próf/midterm 3/dæmi1 (dictionaries_ get_user_input and print).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment 9 (files and exceptions)/dæmi 1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Superheroes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/insertstatement.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Superheroes grading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Passengers_Keflavik.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3213" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/insertstatements.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="77" column="93" selection-start-line="77" selection-start-column="93" selection-end-line="77" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lokapróf/Lotto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="30" column="14" selection-start-line="32" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/education_abroad.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33891">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/createinsert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lokapróf/Distribution.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lokapróf/ISBN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/gamalt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/prufa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4480">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/Forsjabarna.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/insertstatement_forsjabarna.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/incident_report.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/prufa2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/insertstatement_menntun.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/sækja upls um menntun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/sækja uppl um forsjá barna.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/menntun.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/rearange.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
+    <SUITE FILE_PATH="coverage/Forritun1$rearange.coverage" NAME="rearange Coverage Results" MODIFIED="1576157968681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni" />
+    <SUITE FILE_PATH="coverage/Forritun1$prufa2.coverage" NAME="prufa2 Coverage Results" MODIFIED="1576158313610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla" />
+    <SUITE FILE_PATH="coverage/Forritun1$dæmi2.coverage" NAME="dæmi2 Coverage Results" MODIFIED="1569883316356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 10" />
+    <SUITE FILE_PATH="coverage/Forritun1$dæmi3__1_.coverage" NAME="dæmi3 (1) Coverage Results" MODIFIED="1569801205496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 9" />
+    <SUITE FILE_PATH="coverage/Forritun1$dæmi2__1_.coverage" NAME="dæmi2 (1) Coverage Results" MODIFIED="1569790401028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 7" />
+    <SUITE FILE_PATH="coverage/Forritun1$sækja_upls_um_menntun.coverage" NAME="sækja upls um menntun Coverage Results" MODIFIED="1576158880251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni" />
+    <SUITE FILE_PATH="coverage/Forritun1$dæmi3.coverage" NAME="dæmi3 Coverage Results" MODIFIED="1569887252115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 10" />
+    <SUITE FILE_PATH="coverage/Forritun1$dæmi_4.coverage" NAME="dæmi 4 Coverage Results" MODIFIED="1569802054015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 9" />
+    <SUITE FILE_PATH="coverage/Forritun1$dæmi_1.coverage" NAME="dæmi 1 Coverage Results" MODIFIED="1569793151564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 9" />
+    <SUITE FILE_PATH="coverage/Forritun1$move.coverage" NAME="move Coverage Results" MODIFIED="1568676829855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project 4" />
   </component>
 </project>
