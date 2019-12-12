@@ -17,4 +17,4 @@ Insert into birthrate (year, age15_44, age15_19, age20_24, age25_29, age30_34, a
 Insert into birthrate (year, age15_44, age15_19, age20_24, age25_29, age30_34, age35_39, age40_44, age45_49) values (2015, 61.3, 7.9, 54.2, 116.0, 107.2, 61.5, 13.1, 1.1); 
 Insert into birthrate (year, age15_44, age15_19, age20_24, age25_29, age30_34, age35_39, age40_44, age45_49) values (2016, 59.2, 6.5, 48.5, 109.2, 108.6, 59.7, 14.7, 1.8); 
 Insert into birthrate (year, age15_44, age15_19, age20_24, age25_29, age30_34, age35_39, age40_44, age45_49) values (2017, 58.6, 5.9, 48.2, 108.3, 107.3, 57.2, 13.7, 1.3); 
-Insert into birthrate (year, age15_44, age15_19, age20_24, age25_29, age30_34, age35_39, age40_44, age45_49) values (2018, 59.3, 5.3, 47.6, 108.6, 106.3, 59.0, 13.1, 1.4); 
+Insert into birthrate (year, age15_44, age15_19, age20_24, age25_29, age30_34, age35_39, age40_44, age45_49) values (2018, 59.3, 5.3, 47.6, 108.6, 106.3, 59.0, 13.1, 1.4);
