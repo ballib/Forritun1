@@ -36,5 +36,5 @@ for key, value in data.items():
         fieldnames = ['Year', 'Sex', 'Age', 'Total']
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writeheader()
-        for x in range(840):
+        for x in range(len(data['Year'])):
             writer.writerow({'Year': data['Year'][x], 'Sex': data['Sex'][x], 'Age': age_strip[x], 'Total': data['Total'][x]})
