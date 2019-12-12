@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/insertstatement_fæddir.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/insertstatement_fæddir.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/menntun_nytt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/menntun_nytt.csv" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,43 +55,6 @@
     <SUITE FILE_PATH="coverage/Forritun1$dæmi4__1_.coverage" NAME="dæmi4 (1) Coverage Results" MODIFIED="1573569880317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 7" />
     <SUITE FILE_PATH="coverage/Forritun1$createinsert.coverage" NAME="createinsert Coverage Results" MODIFIED="1575571712992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/fæddir.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/menntun_nytt.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/sækja upls um menntun.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/insertstatement_menntun.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/insertstatement_fæddir.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -110,57 +72,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/sækja upls um menntun.py" />
-        <option value="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/fæddir.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="834" />
-  </component>
   <component name="ProjectId" id="1QfBlnqjrbwAII7c9m1ZvxknzgR" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Forritun1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Forritun1" type="462c0819:PsiDirectoryNode" />
-              <item name="Gagnavinnsla" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Forritun1" type="462c0819:PsiDirectoryNode" />
-              <item name="Gagnavinnsla" type="462c0819:PsiDirectoryNode" />
-              <item name="Hópaverkefni" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Forritun1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -187,18 +101,6 @@
       <recent name="$PROJECT_DIR$/upprifjun fyrir próf/tekla" />
       <recent name="$PROJECT_DIR$/assignment 3" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.sækja upls um menntun">
     <configuration name="fæddir" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -314,9 +216,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.sækja upls um menntun" />
+        <item itemvalue="Python.rearange" />
         <item itemvalue="Python.fæddir" />
         <item itemvalue="Python.prufa2" />
-        <item itemvalue="Python.rearange" />
         <item itemvalue="Python.sækja uppl um forsjá barna" />
       </list>
     </recent_temporary>
@@ -382,35 +284,6 @@
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="425000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="22" y="23" width="1440" height="834" extended-state="0" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -423,12 +296,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -455,22 +322,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576158785816" />
-    <state width="1340" height="145" key="GridCell.Tab.0.bottom" timestamp="1576159575167">
+    <state width="1340" height="145" key="GridCell.Tab.0.bottom" timestamp="1576166542757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576159575167" />
-    <state width="1340" height="145" key="GridCell.Tab.0.center" timestamp="1576159575167">
+    <state width="1340" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576166542757" />
+    <state width="1340" height="145" key="GridCell.Tab.0.center" timestamp="1576166542757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="145" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576159575167" />
-    <state width="1340" height="145" key="GridCell.Tab.0.left" timestamp="1576159575167">
+    <state width="1340" height="145" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576166542757" />
+    <state width="1340" height="145" key="GridCell.Tab.0.left" timestamp="1576166542757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="145" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576159575167" />
-    <state width="1340" height="145" key="GridCell.Tab.0.right" timestamp="1576159575167">
+    <state width="1340" height="145" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576166542757" />
+    <state width="1340" height="145" key="GridCell.Tab.0.right" timestamp="1576166542757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="145" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576159575167" />
+    <state width="1340" height="145" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576166542757" />
+    <state width="1340" height="176" key="GridCell.Tab.1.bottom" timestamp="1576165282544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="176" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576165282544" />
+    <state width="1340" height="176" key="GridCell.Tab.1.center" timestamp="1576165282543">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="176" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576165282543" />
+    <state width="1340" height="176" key="GridCell.Tab.1.left" timestamp="1576165282543">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="176" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576165282543" />
+    <state width="1340" height="176" key="GridCell.Tab.1.right" timestamp="1576165282543">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="176" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576165282543" />
     <state x="656" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1576157951979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -529,41 +412,16 @@
     <SUITE FILE_PATH="coverage/Forritun1$prufa.coverage" NAME="prufa Coverage Results" MODIFIED="1574986094229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi5.coverage" NAME="dæmi5 Coverage Results" MODIFIED="1569802189909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 9" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi6.coverage" NAME="dæmi6 Coverage Results" MODIFIED="1568151986910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 6" />
-    <SUITE FILE_PATH="coverage/Forritun1$rearange.coverage" NAME="rearange Coverage Results" MODIFIED="1576157968681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni" />
+    <SUITE FILE_PATH="coverage/Forritun1$rearange.coverage" NAME="rearange Coverage Results" MODIFIED="1576166486938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni" />
     <SUITE FILE_PATH="coverage/Forritun1$prufa2.coverage" NAME="prufa2 Coverage Results" MODIFIED="1576158313610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi2.coverage" NAME="dæmi2 Coverage Results" MODIFIED="1569883316356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 10" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi3__1_.coverage" NAME="dæmi3 (1) Coverage Results" MODIFIED="1569801205496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 9" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi2__1_.coverage" NAME="dæmi2 (1) Coverage Results" MODIFIED="1569790401028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 7" />
-    <SUITE FILE_PATH="coverage/Forritun1$sækja_upls_um_menntun.coverage" NAME="sækja upls um menntun Coverage Results" MODIFIED="1576158880251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni" />
+    <SUITE FILE_PATH="coverage/Forritun1$sækja_upls_um_menntun.coverage" NAME="sækja upls um menntun Coverage Results" MODIFIED="1576166542753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi3.coverage" NAME="dæmi3 Coverage Results" MODIFIED="1569887252115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 10" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi_4.coverage" NAME="dæmi 4 Coverage Results" MODIFIED="1569802054015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 9" />
     <SUITE FILE_PATH="coverage/Forritun1$fæddir.coverage" NAME="fæddir Coverage Results" MODIFIED="1576159575162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi_1.coverage" NAME="dæmi 1 Coverage Results" MODIFIED="1569793151564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 9" />
     <SUITE FILE_PATH="coverage/Forritun1$move.coverage" NAME="move Coverage Results" MODIFIED="1568676829855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project 4" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/insertstatement_menntun.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/sækja upls um menntun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/insertstatement_fæddir.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/fæddir.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni/menntun_nytt.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
   </component>
 </project>

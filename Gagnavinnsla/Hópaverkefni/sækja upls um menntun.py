@@ -1,15 +1,14 @@
 import csv
 
 
-heroes = open("menntun_nytt.csv")
-reader = csv.DictReader(heroes, delimiter=";")
+born = open("test_csv.csv")
+reader = csv.DictReader(born, delimiter=";")
 
 data = []
 
 for d in reader:
     data.append(d)
-heroes.close()
-
+born.close()
 insert_menntun = "Insert into education (year, sex, age, total) values ({}, {}, {}, {}); \n"
 
 f = open('insertstatement_menntun.sql', 'w')
