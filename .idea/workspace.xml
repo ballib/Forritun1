@@ -22,6 +22,7 @@
     <SUITE FILE_PATH="coverage/Forritun1$dæmi2.coverage" NAME="dæmi2 Coverage Results" MODIFIED="1573829014757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 10 (lists)" />
     <SUITE FILE_PATH="coverage/Forritun1$assignment3.coverage" NAME="assignment3 Coverage Results" MODIFIED="1567704851583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 3" />
     <SUITE FILE_PATH="coverage/Forritun1$move.coverage" NAME="move Coverage Results" MODIFIED="1573820754422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project 4" />
+    <SUITE FILE_PATH="coverage/Forritun1$sækja_upls_um_fædda.coverage" NAME="sækja upls um fædda Coverage Results" MODIFIED="1576168670186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni" />
     <SUITE FILE_PATH="coverage/Forritun1$Superheroes.coverage" NAME="Superheroes Coverage Results" MODIFIED="1574684359003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla" />
     <SUITE FILE_PATH="coverage/Forritun1$prufa.coverage" NAME="prufa Coverage Results" MODIFIED="1575559393651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi4.coverage" NAME="dæmi4 Coverage Results" MODIFIED="1573740506959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/upprifjun fyrir próf/assignment 17" />
@@ -71,6 +72,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="22" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="834" />
   </component>
   <component name="ProjectId" id="1QfBlnqjrbwAII7c9m1ZvxknzgR" />
   <component name="ProjectLevelVcsManager">
