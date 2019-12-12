@@ -288,7 +288,7 @@
       <workItem from="1576157681475" duration="121000" />
       <workItem from="1576157950963" duration="1693000" />
       <workItem from="1576159817771" duration="425000" />
-      <workItem from="1576168759204" duration="939000" />
+      <workItem from="1576168759204" duration="2000000" />
     </task>
     <servers />
   </component>
@@ -426,7 +426,7 @@
     <SUITE FILE_PATH="coverage/Forritun1$dæmi3__1_.coverage" NAME="dæmi3 (1) Coverage Results" MODIFIED="1569801205496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 9" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi2__1_.coverage" NAME="dæmi2 (1) Coverage Results" MODIFIED="1569790401028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 7" />
     <SUITE FILE_PATH="coverage/Forritun1$sækja_upls_um_menntun.coverage" NAME="sækja upls um menntun Coverage Results" MODIFIED="1576167427926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni" />
-    <SUITE FILE_PATH="coverage/Forritun1$sækja_upls_um_fædda.coverage" NAME="sækja upls um fædda Coverage Results" MODIFIED="1576168439378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni" />
+    <SUITE FILE_PATH="coverage/Forritun1$sækja_upls_um_fædda.coverage" NAME="sækja upls um fædda Coverage Results" MODIFIED="1576181962433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi3.coverage" NAME="dæmi3 Coverage Results" MODIFIED="1569887252115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 10" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi_4.coverage" NAME="dæmi 4 Coverage Results" MODIFIED="1569802054015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment 9" />
     <SUITE FILE_PATH="coverage/Forritun1$fæddir.coverage" NAME="fæddir Coverage Results" MODIFIED="1576159575162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni" />
