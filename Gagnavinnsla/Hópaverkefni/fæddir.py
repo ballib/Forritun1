@@ -10,7 +10,7 @@ for d in reader:
     data.append(d)
 born.close()
 
-insert_Forsja = "Insert into Custody_children (year, age15_44, age15_19, age20_24, age25_29, age30_34, age35_39, age40_44, age45_49) values ({}, {}, {}, {}, {}, {}, {}, {}, {}); \n"
+insert_Forsja = "Insert into birthrate (year, age15_44, age15_19, age20_24, age25_29, age30_34, age35_39, age40_44, age45_49) values ({}, {}, {}, {}, {}, {}, {}, {}, {}); \n"
 
 f = open('insertstatement_fæddir.sql', 'w')
 
