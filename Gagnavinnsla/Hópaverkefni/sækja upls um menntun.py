@@ -1,7 +1,7 @@
 import csv
 
 
-heroes = open("menntun_nytt.csv")
+heroes = open("menntun_nytt.csv", encoding='utf-8')
 reader = csv.DictReader(heroes, delimiter=";")
 
 data = []
@@ -12,7 +12,7 @@ heroes.close()
 
 insert_menntun = "Insert into education (year, sex, age, total) values ({}, {}, {}, {}); \n"
 
-f = open('insertstatement_menntun.sql', 'w')
+f = open('insertstatement_menntun.sql', 'w', encoding='utf-8')
 
 
 for d in data:

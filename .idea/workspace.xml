@@ -16,7 +16,7 @@
     <SUITE FILE_PATH="coverage/Forritun1$dagur.coverage" NAME="dagur Coverage Results" MODIFIED="1573695386198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/upprifjun fyrir próf/assignment 17" />
     <SUITE FILE_PATH="coverage/Forritun1$tic_tac_toe_aron.coverage" NAME="tic tac toe aron Coverage Results" MODIFIED="1573832827184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tic tac toe" />
     <SUITE FILE_PATH="coverage/Forritun1$klasaupprifjun_frá_aroni.coverage" NAME="klasaupprifjun frá aroni Coverage Results" MODIFIED="1573738624492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/upprifjun fyrir próf/klasaupprifjun" />
-    <SUITE FILE_PATH="coverage/Forritun1$sækja_upls_um_menntun.coverage" NAME="sækja upls um menntun Coverage Results" MODIFIED="1576071826569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni" />
+    <SUITE FILE_PATH="coverage/Forritun1$sækja_upls_um_menntun.coverage" NAME="sækja upls um menntun Coverage Results" MODIFIED="1576160007132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi2__1_.coverage" NAME="dæmi2 (1) Coverage Results" MODIFIED="1573775561367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/midterm2" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi5.coverage" NAME="dæmi5 Coverage Results" MODIFIED="1573573337550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/upprifjun fyrir próf/assignment 7" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi1__1_.coverage" NAME="dæmi1 (1) Coverage Results" MODIFIED="1573821743720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/upprifjun fyrir próf/stöðupróf" />
@@ -48,6 +48,7 @@
     <SUITE FILE_PATH="coverage/Forritun1$dæmi10.coverage" NAME="dæmi10 Coverage Results" MODIFIED="1573511415936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Æfingaverkefni1" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi8.coverage" NAME="dæmi8 Coverage Results" MODIFIED="1573510478631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Æfingaverkefni1" />
     <SUITE FILE_PATH="coverage/Forritun1$Lotto.coverage" NAME="Lotto Coverage Results" MODIFIED="1575638095220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lokapróf" />
+    <SUITE FILE_PATH="coverage/Forritun1$fæddir.coverage" NAME="fæddir Coverage Results" MODIFIED="1576159830167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gagnavinnsla/Hópaverkefni" />
     <SUITE FILE_PATH="coverage/Forritun1$dæmi3__1_.coverage" NAME="dæmi3 (1) Coverage Results" MODIFIED="1573737975886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/upprifjun fyrir próf/assignment 17" />
     <SUITE FILE_PATH="coverage/Forritun1$ISBN.coverage" NAME="ISBN Coverage Results" MODIFIED="1574080952396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lokapróf" />
     <SUITE FILE_PATH="coverage/Forritun1$prufa__1_.coverage" NAME="prufa (1) Coverage Results" MODIFIED="1573829046203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 10 (lists)" />
@@ -71,6 +72,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="22" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="834" />
   </component>
   <component name="ProjectId" id="1QfBlnqjrbwAII7c9m1ZvxknzgR" />
   <component name="ProjectLevelVcsManager">
@@ -102,7 +109,7 @@
       <recent name="$PROJECT_DIR$/assignment 3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fæddir">
+  <component name="RunManager" selected="Python.sækja upls um menntun">
     <configuration name="fæddir" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Forritun1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,8 +222,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fæddir" />
         <item itemvalue="Python.sækja upls um menntun" />
+        <item itemvalue="Python.fæddir" />
         <item itemvalue="Python.prufa2" />
         <item itemvalue="Python.rearange" />
         <item itemvalue="Python.sækja uppl um forsjá barna" />
