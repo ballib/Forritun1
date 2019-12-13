@@ -15,7 +15,7 @@ year_set = set()
 for d in data:
     year_set.add(d['Year'])
 insert_year  = "Insert into years (year) values ({}); \n"
-insert_menntun = "Insert into education (year, age, total, percentage) values ({}, {}, {}, {}); \n"
+insert_menntun = "Insert into education (year, age, total, percentage) values ({}, '{}', {}, {}); \n"
 
 
 f = open('insertstatement_menntun_loka.sql', 'w')
