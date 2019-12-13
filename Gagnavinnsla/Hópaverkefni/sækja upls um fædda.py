@@ -1,7 +1,7 @@
 import csv
 
 
-born = open("FÆDDBÖRNAÐAL.csv")
+born = open("FÆDDBÖRNAÐAL.csv", encoding='utf-8')
 reader = csv.DictReader(born, delimiter=";")
 
 data = []
@@ -12,7 +12,7 @@ for d in reader:
 born.close()
 
 
-insert_birthrate = "Insert into birthrate (year, total, under20, age20_24, age25_29, age30_34, age35_39, age40_44, age45_49, over50) values ({}, {}, {}, {}, {}, {}, {}, {}, {}); \n"
+insert_birthrate = "Insert into birthrate (year, total, under20, age20_24, age25_29, age30_34, age35_39, age40_44, age45_49, over50) values ({}, {}, {}, {}, {}, {}, {}, {}, {}, {}); \n"
 
 
 f = open('insertstatement_fæddir_aðal.sql', 'w')
